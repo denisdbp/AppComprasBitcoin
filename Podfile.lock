@@ -1,0 +1,49 @@
+PODS:
+  - Alamofire (5.5.0)
+  - CPF-CNPJ-Validator (1.0.2)
+  - CreditCardValidator (0.5.3)
+  - EmailValidator (1.0.2)
+  - Money (2.0.1):
+    - ValueCoding (~> 2)
+  - SwiftyJSON (5.0.1)
+  - ValueCoding (2.2.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 5.5)
+  - CPF-CNPJ-Validator
+  - CreditCardValidator (~> 0.5.2)
+  - EmailValidator
+  - Money (from `https://github.com/danthorpe/Money.git`, branch `feature/MNY-79_updates_for_xcode_9`)
+  - SwiftyJSON
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - CPF-CNPJ-Validator
+    - CreditCardValidator
+    - EmailValidator
+    - SwiftyJSON
+    - ValueCoding
+
+EXTERNAL SOURCES:
+  Money:
+    :branch: feature/MNY-79_updates_for_xcode_9
+    :git: https://github.com/danthorpe/Money.git
+
+CHECKOUT OPTIONS:
+  Money:
+    :commit: 49d693ddd4fcb6316e64257f06d79f35add6691c
+    :git: https://github.com/danthorpe/Money.git
+
+SPEC CHECKSUMS:
+  Alamofire: 1c4fb5369c3fe93d2857c780d8bbe09f06f97e7c
+  CPF-CNPJ-Validator: 0b08069595da2c4b20e964b743bfc0a7334d5347
+  CreditCardValidator: 8306e89b1092e03a146c1bd40943cff09e816772
+  EmailValidator: 366dc0ddedcc457ae14d269fa056416a6730d6ea
+  Money: 3babd4c04fbf3251d30abe374a64fa8fed29ec64
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
+  ValueCoding: dd37df7966fb14d5238c19e2f88c86ac4064ef96
+
+PODFILE CHECKSUM: b900640442631380a07e1a14be476af4e953994d
+
+COCOAPODS: 1.11.2
